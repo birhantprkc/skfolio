@@ -54,7 +54,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=1.23.5",
+    "numpy>=1.24.0",
     "scipy>=1.15.2",
     "pandas>=2.1.0",
     "cvxpy-base>=1.5.0",
@@ -186,7 +186,7 @@ markers = [
 ]
 # `--doctest-modules` applies to the whole source root, so every docstring example
 # is executed and its documented output verified. The few that cannot be are listed,
-# with a reason each, in `SKIPPED` in `src/skfolio/conftest.py`.
+# with a reason each, in `SKIPPED` in `src/conftest.py`.
 testpaths = [
     "tests",
     "src",
